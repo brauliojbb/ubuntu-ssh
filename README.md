@@ -1,1 +1,25 @@
 # ubuntu-ssh
+
+NOTE: THIS IMAGE IS TO BE USED FOR TEST AND LEARNIGN PURPOSES ONLY! NOT TO BE USED IN A PRODUCTION ENVIRONMENT!
+
+SSH Enabled Ubuntu Image for Test and Dev purposes ONLY!
+
+## Use:
+
+Run the container:
+
+```docker run -d brauliojbb/ubuntu-ssh```
+
+Identify the Internal IP
+
+```docker inspect <container-id-name>```
+
+SSH
+
+```ssh <container-ip>```
+
+**Username:** root
+
+**Password:** CookB00k
+
+Based on : https://docs.docker.com/engine/examples/running_ssh_service/
